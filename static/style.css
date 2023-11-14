@@ -1,0 +1,47 @@
+/*
+Normal Font: font-family: 'PT Sans', sans-serif;
+Headings: font-family: 'Sometype Mono', monospace;
+*/
+body, html {
+    background-color: #212529;
+}
+
+.headings {
+    font-family: 'Sometype Mono', monospace;
+}
+
+#header {
+    height: 60vh;
+    background-color:red;
+    
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    top: 0px;
+    
+    
+}
+#grad1 {
+    height: 100%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#FF0D86, #212529);
+    margin: 0px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#grad1 > h1 {
+    font-size: 100px;
+    
+}
+
